@@ -10,11 +10,7 @@ The main aim of the project is to produce a safe path for the robot to execute b
 
 The gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map from laser and pose data collected by a mobile robot.
 
-make sure you install the package in the current working directory 
-
-`https://github.com/ros-perception/slam_gmapping.git`
-
-In order to establish a connection of the Lidar to ROS Kinetic
+In order to establish a connection of the Lidar to ROS noetic
 
 `sudo apt-get install ros-noetic-lms1xx`
 
