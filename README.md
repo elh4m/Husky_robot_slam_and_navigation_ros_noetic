@@ -4,6 +4,12 @@ This is a group project of the course "software architecture for Robots" at the 
 
 The main aim of the project is to produce a safe path for the robot to execute by processing the data like odometry and lidar sensors in the environment map. We create maps of environments, localize the robot in the environment, make the robots perform path planning, visualize data of the different Navigation processes and using SLAM, and configure the different Navigation nodes
 
+#uml diagram
+![Screenshot 2021-07-08 at 10 34 24 PM](https://user-images.githubusercontent.com/73032093/125801199-624b265c-c95a-44f2-a92e-4b0542e43d4f.png)
+
+#sequential diagram
+![nav02](https://user-images.githubusercontent.com/73032093/125801295-7bc6ac2b-77be-4b72-987f-ccc2ca98ab00.jpeg)
+
 ## modules that are used
 
 #slam-gmapping
