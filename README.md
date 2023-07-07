@@ -10,7 +10,7 @@ The main aim of the project is to produce a safe path for the robot to execute b
 
 The gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Using slam_gmapping, you can create a 2-D occupancy grid map from laser and pose data collected by a mobile robot.
 
-make sure you install the pacage in the current working directory 
+make sure you install the package in the current working directory 
 
 `https://github.com/ros-perception/slam_gmapping.git`
 
@@ -36,9 +36,7 @@ For installing robot state publisher
 
 
 #move_base
-The move_base node provides a ROS interface for configuring, running, and interacting with the navigation stack on a robot .Running the move_base node on a robot that is properly configured results in a robot that will attempt to achieve a goal pose with its base to within a user-specified tolerance. In the absence of dynamic obstacles,
-
-Packages that need to be installed
+The move_base node provides a ROS interface for configuring, running, and interacting with the navigation stack on a robot .Running the move_base node on a robot that is properly configured results in a robot that will attempt to achieve a goal pose with its base to within a user-specified tolerance. In the absence of dynamic obstacles, there are packages that need to be installed
 
 `cd /opt/ros/noetic/lib`
 
@@ -55,11 +53,9 @@ In the global costmap is everything the robot knows from previous visits and sto
 The Navigation Stack is fairly simple on a conceptual level. It takes in information from odometry and sensor streams and outputs velocity commands to send to a mobile base. As a prerequisite for navigation stack the robot should have a tf transform tree in place, and publish sensor data using the correct ROS Message types. Also, the Navigation Stack needs to be configured for the shape and dynamics of a robot to perform at a high level. To help with this process, this manual is meant to serve as a guide to typical Navigation Stack set-up and configuration.
 
 
-To install the package
+To install the proper version of navigation package
 
 `sudo apt-get install ros-noetic-navigation`
-
-
 
 #Execution of the code
 
@@ -69,7 +65,7 @@ To launch the handshake between unity and ros
 
 `roslaunch mobile_robot_navigation_project navigation.launch`
 
-for localisation the robot in the environment
+for localizing the robot in the environment
 
 `roslaunch mobile_robot_navigation_project gmapping.launch`
 
