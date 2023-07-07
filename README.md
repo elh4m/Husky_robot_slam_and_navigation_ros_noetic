@@ -1,6 +1,6 @@
 # Husky_robot_slam_and_navigation_ros_noetic
 
-This project is a simulation of a mobile robot which does autonomous navigation in the given environment . In this the robot(husky) is equipped with a lidar sensor, microcontroller and a four wheel drive system, The robot is expected to navigate by itself autonomously and map the surrounding simultaneously by avoiding obstacles until it reaches the destination
+This is a group project of the course "software architecture for Robots" at the Università di Genova and includes simulation of a mobile robot which does autonomous navigation in the given environment . In this the robot(husky) is equipped with a lidar sensor, microcontroller and a four wheel drive system, The robot is expected to navigate by itself autonomously and map the surrounding simultaneously by avoiding obstacles until it reaches the destination
 
 The main aim of the project is to produce a safe path for the robot to execute by processing the data like odometry and lidar sensors in the environment map. We create maps of environments, localize the robot in the environment, make the robots perform path planning, visualize data of the different Navigation processes and using SLAM, and configure the different Navigation nodes
 
